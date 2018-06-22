@@ -1,4 +1,4 @@
 build:
-	docker-compose run --rm web eta code/Main.hs
+	docker-compose run --rm web eta src/Main.hs
 run:
-	docker-compose run --rm web java -jar code/RunMain.jar
+	docker-compose run --rm web java -jar src/RunMain.jar

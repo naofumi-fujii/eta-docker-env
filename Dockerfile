@@ -1,3 +1,3 @@
 FROM typelead/eta
-ADD . /code
-WORKDIR /code
+ADD . /src
+WORKDIR /src
