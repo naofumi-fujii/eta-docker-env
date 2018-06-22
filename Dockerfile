@@ -1,3 +1,4 @@
 FROM typelead/eta
-ADD . /src
-WORKDIR /src
+RUN mkdir /eta-env
+WORKDIR /eta-env
+ADD . /eta-env
